@@ -4,9 +4,11 @@ p {
   text-align: center;
 }
 body {
-  /* background-color: rgb(252, 104, 210);*/
+  background-image: url(https://wallpapers.com/images/high/aesthetic-y2k-background-1920-x-1080-kel57oyilxgi5ttd.webp);
 }
-#fashion {
-  width: 300px;
+.fashion {
+  width: 80%;
   background-color: rgb(252, 104, 210);
+  margin-left: auto;
+  margin-right: auto;
 }
