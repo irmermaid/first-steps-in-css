@@ -4,5 +4,8 @@ p {
   text-align: center;
 }
 body {
-  background-color: rgb(255, 114, 215);
+  background-color: rgb(252, 104, 210);
+}
+#fashion {
+  width: 300px;
 }
