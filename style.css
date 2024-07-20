@@ -12,3 +12,12 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+.spice {
+  text-align: left;
+}
+.explanation {
+  text-align: right;
+}
+.item p {
+  display: inline-block;
+}
