@@ -24,3 +24,13 @@ body {
 .item p {
   display: inline-block;
 }
+
+.b2yk {
+  text-align: left;
+  width: 29%;
+}
+
+.explanation2 {
+  text-align: right;
+  width: 70%;
+}
