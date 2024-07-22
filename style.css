@@ -5,6 +5,7 @@ p {
 }
 body {
   background-image: url(https://wallpapers.com/images/high/aesthetic-y2k-background-1920-x-1080-kel57oyilxgi5ttd.webp);
+  font-family: sans-serif;
 }
 .fashion {
   width: 80%;
@@ -12,25 +13,39 @@ body {
   margin-left: auto;
   margin-right: auto;
   color: rgb(240, 248, 255);
+  /* padding-left: 20px;
+  padding-right: 20px; */
+  /* padding-top: 20px; */
+  /* padding-bottom: 20px; */
+  padding: 20px;
+  max-width: 500px; /*The current width of the menu will always take up 80% of the body element's width. On a very wide screen, the coffee and dessert appear far apart from their prices.
+Add a max-width property to the menu class with a value of 500px to prevent it from growing too wide.*/
 }
-.spice {
-  text-align: left;
-  width: 29%;
+.kuku {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-.explanation {
-  text-align: right;
-  width: 70%;
-}
-.item p {
-  display: inline-block;
-}
-
+.spice,
 .b2yk {
   text-align: left;
   width: 29%;
 }
-
+.explanation,
 .explanation2 {
   text-align: right;
-  width: 70%;
+  width: 100%;
+}
+.item p {
+  display: inline-block;
+}
+h1,
+h2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
 }
