@@ -2,10 +2,30 @@ h1,
 h2,
 p {
   text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+.kissicons {
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+.boyicon {
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
 }
 body {
   background-image: url(https://wallpapers.com/images/high/aesthetic-y2k-background-1920-x-1080-kel57oyilxgi5ttd.webp);
   font-family: sans-serif;
+  padding: 20px;
 }
 .fashion {
   width: 80%;
@@ -44,8 +64,39 @@ h2 {
 }
 h1 {
   font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 h2 {
   font-size: 30px;
+}
+hr {
+  height: 3px;
+  background-color: pink;
+  border-color: pink;
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+styles.css/*FOOTER*/
+footer {
+  font-size: 14px;
+}
+a {
+  color: rgb(122, 8, 8);
+}
+a:visited {
+  color: rgb(131, 8, 8);
+} /*{ propertyName: propertyValue; }.*/
+a:hover {
+  color: blue;
+}
+a:active {
+  color: white;
+}
+.address {
+  margin-bottom: 5px;
 }
